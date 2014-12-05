@@ -1,0 +1,23 @@
+{
+  "name": "nadiaservices",
+  "version": "1.0.0",
+  "description": "nadiaservices website",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asiegrist/nadiaservices.git"
+  },
+  "author": "Adeline Siegrist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asiegrist/nadiaservices/issues"
+  },
+  "homepage": "https://github.com/asiegrist/nadiaservices"
+}
