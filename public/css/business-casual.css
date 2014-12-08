@@ -59,18 +59,10 @@ hr {
     min-width: 100%;
 }
 
-.brand-before,
-.brand-name {
-    text-transform: capitalize;
-}
-
-.brand-before {
-    margin: 15px 0;
-}
-
-.brand-name {
+.brand-catch {
+    text-transform: none;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .tagline-divider {
