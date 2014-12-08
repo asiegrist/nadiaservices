@@ -7,6 +7,7 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('../img/yellow-shake.jpg') no-repeat center center fixed;
+    /*background-color: ffff89;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -37,7 +38,8 @@ hr {
 }
 
 .brand,
-.address-bar {
+.address-bar, 
+.logo {
     display: none;
 }
 
@@ -124,6 +126,24 @@ footer p {
         font-weight: 700;
         line-height: normal;
         color: #FF0033;
+    }
+
+    .logo {
+        display: inherit;
+        max-width: 200px;
+        position: absolute;
+        left: 5px;
+        top: 20px;
+        z-index: -1;
+    }
+
+    .logo_s {
+        display: inherit;
+        max-width: 200px;
+        max-height: 100px;
+        position: absolute;
+        right: 5px;
+        top: 20px;
     }
 
     .top-divider {
