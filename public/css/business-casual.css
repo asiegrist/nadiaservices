@@ -39,7 +39,8 @@ hr {
 
 .brand,
 .address-bar, 
-.logo {
+.logo,
+.logo_sap {
     display: none;
 }
 
@@ -56,12 +57,14 @@ hr {
 }
 
 .img-full {
+    max-width: 500px;
+    max-height: 600px;
     min-width: 100%;
 }
 
 .brand-catch {
     text-transform: none;
-    margin: 0;
+    margin: 30;
     font-size: 3em;
 }
 
@@ -117,7 +120,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #FF0033;
+        color: #FF0080;
     }
 
     .logo {
@@ -129,7 +132,7 @@ footer p {
         z-index: -1;
     }
 
-    .logo_s {
+    .logo_sap {
         display: inherit;
         max-width: 200px;
         max-height: 100px;
