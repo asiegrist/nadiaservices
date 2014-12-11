@@ -68,6 +68,13 @@ hr {
     font-size: 3em;
 }
 
+.tax {
+    /*text-transform: none;*/
+    text-align: center;
+    margin: 30;
+    font-size: 2em;
+}
+
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
